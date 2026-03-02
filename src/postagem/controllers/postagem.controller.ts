@@ -11,6 +11,6 @@ export class PostagemController{
 
     @Get()
     findAll(): Promise<Postagem[]>{
-        return this.postagemService.findall();
+        return this.postagemService.findAll();
     }
 }
