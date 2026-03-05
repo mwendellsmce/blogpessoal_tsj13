@@ -8,6 +8,6 @@ import { PostagemController } from './controllers/postagem.controller';
     imports:[TypeOrmModule.forFeature([Postagem])],
     controllers: [PostagemController],
     providers:[PostagemService],
-    exports: []
+    exports: [TypeOrmModule]
 })
 export class PostagemModule{}
